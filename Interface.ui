@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Interface</class>
+ <widget class="QWidget" name="Interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>362</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-270</y>
+     <width>1121</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>back121.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vk">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>VK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="youtube">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>YouTube</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="XVM">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>XVM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ProTanki">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Protanki</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lichess">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Lichess</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="steam">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Steam</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calculator">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Calculator</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mosru">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Mos ru</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Lesta">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Lesta</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tanksgg">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Tanks gg</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Wottactics">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>WoT Tactics</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ffe5b4;</string>
+   </property>
+   <property name="text">
+    <string>Translate:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ffe5b4;</string>
+   </property>
+   <property name="text">
+    <string>Search:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="transfield">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>261</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchfield">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>310</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gotrans">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>260</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gosearch">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>310</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #ffe5b4;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+}
+
+QPushButton:hover {
+background-color: #ffd485;
+color: rgb(213, 53, 45);
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
